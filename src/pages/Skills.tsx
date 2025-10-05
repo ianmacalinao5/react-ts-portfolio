@@ -1,5 +1,6 @@
 import {
   SiJavascript,
+  SiTypescript,
   SiVuedotjs,
   SiReact,
   SiAngular,
@@ -27,46 +28,51 @@ const Skills = () => {
       title: "Frontend",
       icon: <Laptop size={20} className="text-blue-600 dark:text-blue-400" />,
       techs: [
-        {
-          id: 1,
-          name: "JavaScript",
-          icon: <SiJavascript className="text-yellow-500" size={28} />,
-        },
-        {
-          id: 2,
-          name: "Vue.js",
-          icon: <SiVuedotjs className="text-green-500" size={28} />,
-        },
-        {
-          id: 3,
-          name: "React",
-          icon: <SiReact className="text-sky-500" size={28} />,
-        },
-        {
-          id: 4,
-          name: "Angular",
-          icon: <SiAngular className="text-red-600" size={28} />,
-        },
-        {
-          id: 5,
-          name: "Tailwind CSS",
-          icon: <SiTailwindcss className="text-cyan-500" size={28} />,
-        },
-        {
-          id: 6,
-          name: "Bootstrap",
-          icon: <SiBootstrap className="text-purple-600" size={28} />,
-        },
-        {
-          id: 7,
-          name: "HTML5",
-          icon: <SiHtml5 className="text-orange-600" size={28} />,
-        },
-        {
-          id: 8,
-          name: "CSS3",
-          icon: <SiCss3 className="text-blue-500" size={28} />,
-        },
+       {
+    id: 1,
+    name: "JavaScript",
+    icon: <SiJavascript className="text-yellow-500" size={28} />,
+  },
+  {
+    id: 2,
+    name: "TypeScript",
+    icon: <SiTypescript className="text-blue-600" size={28} />,
+  },
+  {
+    id: 3,
+    name: "Vue.js",
+    icon: <SiVuedotjs className="text-green-500" size={28} />,
+  },
+  {
+    id: 4,
+    name: "React",
+    icon: <SiReact className="text-sky-500" size={28} />,
+  },
+  {
+    id: 5,
+    name: "Angular",
+    icon: <SiAngular className="text-red-600" size={28} />,
+  },
+  {
+    id: 6,
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss className="text-cyan-500" size={28} />,
+  },
+  {
+    id: 7,
+    name: "Bootstrap",
+    icon: <SiBootstrap className="text-purple-600" size={28} />,
+  },
+  {
+    id: 8,
+    name: "HTML5",
+    icon: <SiHtml5 className="text-orange-600" size={28} />,
+  },
+  {
+    id: 9,
+    name: "CSS3",
+    icon: <SiCss3 className="text-blue-500" size={28} />,
+  },
       ],
     },
     {
