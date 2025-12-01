@@ -17,6 +17,7 @@ import {
   SiGithub,
   SiPostman,
   SiFigma,
+  SiVercel,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { BiLogoVisualStudio } from "react-icons/bi";
@@ -143,6 +144,11 @@ const Skills = () => {
           id: 19,
           name: "Figma",
           icon: <SiFigma className="text-pink-500" size={28} />,
+        },
+        {
+          id: 19,
+          name: "Vercel",
+          icon: <SiVercel className="text-black" size={28} />,
         },
       ],
     },
