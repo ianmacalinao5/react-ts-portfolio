@@ -4,9 +4,20 @@ import StayFit from "@/assets/images/stayfit.png";
 import ClothingEcommerce from "@/assets/images/clothing-ecommerace.png";
 import Consultation from "@/assets/images/consultation.png";
 import Furniture from "@/assets/images/furniture.png";
+import Trackflow from "@/assets/images/trackflow.png";
 
 const Projects = () => {
   const projects: ProjectProps[] = [
+    {
+      id: 1,
+      title: "Trackflow",
+      description:
+        "A simple yet organized ticketing solution with dedicated workflows for Users, Support agents, and Admins.",
+      tech: ["Vue", "TypeScript", "Laravel", "Shadcn UI", "MySQL", "Pinia"],
+      image: Trackflow,
+      repo: "https://github.com/ianmacalinao5/track-flow",
+      live: "N/A",
+    },
     {
       id: 1,
       title: "StayFit",
@@ -21,7 +32,7 @@ const Projects = () => {
         "Gemini",
       ],
       image: StayFit,
-      repo: "https://github.com/iHubG/stayfit",
+      repo: "https://github.com/ianmacalinao5/stayfit",
       live: "https://stayfit-ai.vercel.app/",
     },
     {
@@ -31,7 +42,7 @@ const Projects = () => {
         "A modern and responsive e-commerce website for clothing, featuring product listings and a shopping cart. Built from a free Figma template.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Figma"],
       image: ClothingEcommerce,
-      repo: "https://github.com/iHubG/clothing-ecommerce",
+      repo: "https://github.com/ianmacalinao5/clothing-ecommerce",
       live: "https://clothing-ecommerce-theta.vercel.app/",
     },
     {
@@ -41,7 +52,7 @@ const Projects = () => {
         "A web-based platform that streamlines scheduling of consultations for students, faculty, and admins. Features include authentication, role-based control, and in-app notifications.",
       tech: ["Laravel", "React", "Tailwind CSS", "Shadcn UI", "MySQL"],
       image: Consultation,
-      repo: "https://github.com/iHubG/consultation-scheduling-system-v3",
+      repo: "https://github.com/ianmacalinao5/consultation-scheduling-system-v3",
       live: "N/A",
     },
     {
@@ -51,7 +62,7 @@ const Projects = () => {
         "An e-commerce furniture website built from a free Figma template. Based on the Panto - Furniture Landing Page template.",
       tech: ["React", "Tailwind CSS", "Hero UI"],
       image: Furniture,
-      repo: "https://github.com/iHubG/e-commerce-furn",
+      repo: "https://github.com/ianmacalinao5/e-commerce-furn",
       live: "https://e-commerce-furn.vercel.app/",
     },
     {
@@ -62,7 +73,7 @@ const Projects = () => {
       tech: ["Kotlin", "Java", "Android Studio"],
       image:
         "https://placehold.co/400x250?text=Image+Preview+Not+Available&font=roboto",
-      repo: "https://github.com/iHubG/expense-tracker-app",
+      repo: "https://github.com/ianmacalinao5/expense-tracker-app",
       live: "N/A",
     },
     {
@@ -73,7 +84,7 @@ const Projects = () => {
       tech: ["PHP", "Bootstrap", "Jquery", "JavaScript", "MySQL"],
       image:
         "https://placehold.co/400x250?text=Image+Preview+Not+Available&font=roboto",
-      repo: "https://github.com/iHubG/Class-Record-Management-System",
+      repo: "https://github.com/ianmacalinao5/Class-Record-Management-System",
       live: "N/A",
     },
   ];

@@ -30,7 +30,8 @@ const NotFound = () => {
 
       {/* Optional Easter Egg */}
       <p className="mt-6 text-xs text-gray-500 dark:text-gray-500">
-        Error Code: <span className="font-mono text-red-500">ERR_PAGE_NOT_FOUND</span>
+        Error Code:{" "}
+        <span className="font-mono text-red-500">ERR_PAGE_NOT_FOUND</span>
       </p>
     </div>
   );
